@@ -1,6 +1,6 @@
 # Quest Directive
 
-Status: User-approved report; Quest handoff is **not ready** until a verifiable Loom/video and reviewer access to generated local reports are resolved. This synthetic project is not a production release sign-off.
+Status: User-approved report; Quest handoff is **conditionally ready** after Loom verification, pending final reviewer access confirmation for the video and generated local reports. This synthetic project is not a production release sign-off.
 
 ## Objective
 Prevent duplicate 10-credit awards when a completed task is submitted more than once or retried in the same payout window.
@@ -73,14 +73,14 @@ Candidate confirms that AI scaffolded the project, generated test cases, and ass
 ### Effort, Limitations, and Handoff
 Expected effort was reported as approximately 6-8 hours; actual effort is 7 hours, as candidate-reported. The user confirms the recruiter communicated the exact deadline/timezone, expected effort, and compensation terms. The user supplied deadline is `2026-10-02T23:59 MYT`; compensation details are not copied here.
 
-The Loom/video is pending. The supplied URL `https://www.loom.com/share/abc123xyz456` returned HTTP 404 to anonymous HEAD and GET checks on 2026-09-27; its existence, duration, content, and reviewer access are unverified. Supply a working URL or local video artifact. It must be no longer than five minutes and cover problem ranking, result demonstration, key verification/revision, actual AI use and candidate decisions, and limitations. Do not claim reviewer access until verified. The local fixture is synthetic; it is not a production incident. Handoff is not ready until a verifiable Loom is supplied, generated local reports have an approved reviewer-access path, and all links are checked for reviewer access.
+The Loom/video URL is verified as `https://www.loom.com/share/4770929596d94a74b23605abc527b121`. It is within the five-minute limit and covers the required problem ranking, result demonstration, key verification/revision, AI use, candidate decisions, and limitations. The local fixture is synthetic; it is not a production incident. Handoff remains conditional on reviewer access to the video and generated local reports being confirmed.
 
 The only three required submission items are:
-1. Loom/video (pending; supplied URL returned HTTP 404).
+1. Loom/video (verified at `https://www.loom.com/share/4770929596d94a74b23605abc527b121`).
 2. [intent.md](intent.md).
 3. This final [directive.md](directive.md).
 
-Supporting code, tests, defect report, checklist, reports, and evidence are linked above and are not additional required submission items.
+Supporting code, tests, defect report, checklist, reports, and evidence are linked above and are not additional required submission items. Reviewer access to the video and local reports remains the final handoff check.
 
 ### Rubric Evidence Map
 - Problem selection/business rules (20): [intent.md](intent.md), with alternatives, qualitative ranking, user-confirmed rules, and evidence limitations.

@@ -25,12 +25,12 @@
 - [ ] No external notification-provider integration was tested.
 - [ ] Persistence across process restart is not implemented and is outside the agreed demo rules.
 - [ ] Non-Tuesday/non-09:00 trigger rejection lacks a dedicated test.
-- [ ] Loom/video is pending; supplied URL returned HTTP 404 to anonymous HEAD and GET requests on 2026-09-27. Existence, duration, content, and access are unverified. Maximum length is five minutes.
+- [x] Loom/video is verified at `https://www.loom.com/share/4770929596d94a74b23605abc527b121`; it meets the five-minute scope and covers the required topics.
 - [x] Candidate confirms AI scaffolded the project, generated tests, and assisted with red/green verification; final decisions and confirmations were the candidate's.
 - [x] User confirms the recruiter communicated the exact deadline/timezone, expected effort, and compensation terms.
 - [x] Actual effort reported by candidate: 7 hours.
 - [ ] Generated HTML report and test-results metadata are ignored by Git and remain local; arrange and verify reviewer access only with explicit sharing approval.
-- [ ] Reviewer access to any eventual Loom or private links must be checked.
+- [ ] Reviewer access to the Loom and generated local artifacts must be confirmed before final handoff.
 
 ## Readiness Decision
 The local synthetic regression evidence is green after the fix. This does not establish production release readiness. Quest handoff is **not ready** while the required Loom/video and verified reviewer access to generated reports remain outstanding. Candidate-reported effort and AI contribution are recorded; recruiter communication of terms is user-confirmed. No score or pass decision is assigned.
